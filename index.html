@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>triangle Shape</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+
+    }
+    .s{
+        width: 0px;
+        height: 0px;
+        margin: auto;
+        position: relative;
+    }
+    #one{
+        border: 200px solid transparent;
+        border-bottom: 160px solid rgb(245, 10, 139);
+        z-index: 3;
+        bottom: -570px;;
+    }
+    #two{
+        border: 200px solid transparent;
+        border-bottom: 160px solid whitesmoke;
+        z-index: 2;
+        bottom: -290px;
+    }
+    #three{
+        border: 200px solid transparent;
+        border-bottom: 160px solid yellow;
+        z-index: 1;
+    }
+    #triangle{
+        margin-top: -600px;
+       padding-bottom: 200px;
+        background: linear-gradient(90deg,rgb(0, 128, 79),grey);
+        background-size: cover;
+    }
+
+</style>
+<body>
+        <div id="triangle">
+            <div id="one" class="s"></div>
+            <div id="two" class="s"></div>
+            <div id="three" class="s"></div>
+        </div>
+</body>
+</html>
